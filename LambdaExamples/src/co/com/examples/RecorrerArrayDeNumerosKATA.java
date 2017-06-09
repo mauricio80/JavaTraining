@@ -24,7 +24,6 @@ public class RecorrerArrayDeNumerosKATA {
         
         System.out.println("\n\nJAVA 8:");
         // JAVA 8: Recorrer una lista de numeros.
-
         
         System.out.println("");
 	}
