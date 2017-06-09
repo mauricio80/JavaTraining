@@ -1,0 +1,7 @@
+*********************************************************************
+
+EXPRESIONES LAMBDA
+
+http://www.ecodeup.com/entendiendo-paso-a-paso-las-expresiones-lambda-en-java/
+
+http://www.oracle.com/technetwork/es/articles/java/expresiones-lambda-api-stream-java-2633852-esa.html
