@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class LambdaApp {
+public class LambdaAppKATA {
 	
 	public void ordernar() {
 		
@@ -24,7 +24,7 @@ public class LambdaApp {
 		 */
 
 		// Lambda JAVA 1.8
-		Collections.sort(lista, (String p1, String p2) -> p1.compareTo(p2));
+		
 
 		for (String elemento : lista) {
 			System.out.println(elemento);
@@ -41,12 +41,12 @@ public class LambdaApp {
 		System.out.println(operacion.calcularPromedio(2, 3));*/
 				
 		// Lambda JAVA 1.8
-		Operacion operacion = (double x, double y) -> (x + y) / 2;
-		System.out.println(operacion.calcular(2, 3));
+		
+
 	}
 
 	public static void main(String[] args) {
-		LambdaApp app = new LambdaApp();
+		LambdaAppKATA app = new LambdaAppKATA();
 		//app.ordernar();
 		app.calcular();
 	}
