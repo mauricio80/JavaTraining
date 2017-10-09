@@ -24,7 +24,7 @@ public class LambdaAppKATA {
 		 */
 
 		// Lambda JAVA 1.8
-		
+
 
 		for (String elemento : lista) {
 			System.out.println(elemento);
@@ -41,13 +41,12 @@ public class LambdaAppKATA {
 		System.out.println(operacion.calcularPromedio(2, 3));*/
 				
 		// Lambda JAVA 1.8
-		
 
 	}
 
 	public static void main(String[] args) {
 		LambdaAppKATA app = new LambdaAppKATA();
-		//app.ordernar();
+	//	app.ordernar();
 		app.calcular();
 	}
 }
