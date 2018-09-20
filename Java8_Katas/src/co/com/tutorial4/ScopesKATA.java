@@ -31,13 +31,12 @@ public class ScopesKATA {
 		};
 		
 		// JAVA 8
-
 		
 		return op.calcular(1, 1);
 	}
 	
 	public static void main(String[] arg) {
-		ScopesKATA scopes = new ScopesKATA();
-		scopes.probarLocalVariable();
+		ScopesKATA scopes = new ScopesKATA();		
+		System.out.println(scopes.probarAtributosStaticos());
 	}
 }
